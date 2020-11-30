@@ -31,3 +31,9 @@ end
 		action :create
 	end
 end
+
+file '/rahulfile' do
+        content "this is my second file"
+        action :create
+        owner 'root'
+        group 'root'
